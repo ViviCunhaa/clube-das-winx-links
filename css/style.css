@@ -16,30 +16,52 @@ header {
     justify-content: space-between;
     align-items: center;
     margin-bottom: 20px;
+    background-color: #ca0c78; 
+    padding: 30px 40px;       
+    border-radius: 8px;
 }
 
 #inicio h1 {
     font-size: 20px;
-    color: #cf2e8c;
+    color: #ffffff;
 }
 
 #menu a {
-    color: #cf2e8c;
     text-decoration: none;
     margin-left: 10px;
+    text-decoration: none;
+    padding: 6px 12px;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+  #link-inicio {
+    background-color: #db5ca2; 
+    color: #ffffff;            
 }
 
-#menu a:last-child {
-    background-color: #f73c99;
-    color: white;
-    padding: 5px 10px;
-    border-radius: 5px;
+  #link-carros {
+    background-color: #db5ca2; 
+    color: white;              
+}
+
+  #link-curiosidades {
+    background-color: #fae673;
+    color: rgb(0, 0, 0);              
+}           
+
+#caixa-texto {
+    background-color: #fa3996; 
+    padding: 20px 30px;        
+    border-radius: 8px;        
+    margin-bottom: 20px;       
 }
 
 
 small {
-    color: #cf2e8c;
+    color:  #fae673;
     font-weight: bold;
+    font-size: 14
+    px;
 }
 
 h2 {
@@ -48,39 +70,58 @@ h2 {
 }
 
 h2 strong {
-    color: #cf2e8c;
+    color: #fae673;
 }
 
 main section p {
-    color: rgb(12, 12, 12);
+    color: rgb(2, 2, 2);
     margin-bottom: 20px;
 }
 
 
 #introducao {
-    background-color: #ffc0e0;
+    background-color: #fdb2d7;
     border-radius: 10px;
     padding: 20px;
     display: flex;
-    gap: 20px;
+    gap: 50px;
+    
+}
+
+#bloco-imagem {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 #introducao img {
     width: 300px;
     border-radius: 8px;
+    height: auto;
 }
 
 .legenda-imagem {
-    color: #cf2e8c;
-    font-size: 12px;
-    margin-top: 5px;
+    color: #070707;
+    font-size: 15px;
+    margin-top: 8px;
+    text-align: center;
 }
 
 #introducao h3 {
     color: #cf2e8c;
     margin-bottom: 10px;
+    font-size: 18px;
 }
 
+h3 {
+   color: #ffffff;
+   font-size: 15px;
+}    
+
+#introducao article article strong {
+    font-size: 17px; 
+    color: #050505;  
+}
 
 #introducao article article {
     background-color: white;
@@ -95,6 +136,7 @@ main section p {
 #introducao article article p:first-child {
     font-weight: bold;
     color: #cf2e8c;
+    font-size: 20px;
 }
 
 
@@ -103,6 +145,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     margin-top: 30px;
+    background-color: #ca0c78;
+    padding: 40px 30px;
+    border-radius: 8px;
 }
 
 footer p {
@@ -110,8 +155,8 @@ footer p {
 }
 
 #menu-final a {
-    background-color: #f73c99;
-    color: white;
+    background-color: #fae673;;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 8px 12px;
     border-radius: 5px;
