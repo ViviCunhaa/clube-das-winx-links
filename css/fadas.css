@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fdbadc;
+    padding: 20px;
+}
+
+header {
+    color: rgb(48, 45, 47);
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ca0c78;
+    padding: 15px 20px;
+    border-radius: 10px;
+}
+
+header h1 {
+    color: white;
+    font-size: 20px;
+}
+
+#menu {
+    display: flex;
+    gap: 10px;
+}
+
+#menu a {
+    text-decoration: none;
+    padding: 8px 14px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#link-inicio {
+    background-color: #ff91cc;
+    color: #3b0323;
+}
+
+#link-fadas {
+    background-color: #e252a1;
+    color: white;
+}
+
+#link-curiosidades {
+    background-color: #f73c99;
+    color: white;
+}
+
+#caixa-texto, #introducao {
+    background-color: #ca0c78;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+}
+
+#caixa-texto h2, #introducao h2 {
+    font-size: 24px;
+    margin-top: 5px;
+}
+
+#caixa-texto h3 {
+    font-size: 16px;
+    color: #ffe6f2;
+    margin-top: 10px;
+}
+
+/* Caixas das Fadas */
+#cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 20px;
+}
+
+.card {
+    background-color: #ffffff;
+    padding: 15px;
+    width: 30%;
+    min-width: 250px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.card img {
+    width: 100%;
+    border-radius: 15px;
+    height: 250px;
+    object-fit: cover;
+}
+
+.card h3 {
+    font-size: 18px;
+    color: #ca0c78;
+    margin-top: 10px;
+}
+
+.card p {
+    margin-top: 8px;
+    font-weight: bold;
+    color: rgb(51, 65, 85);
+    font-size: 14px;
+}
+
+small {
+    color: #fae673;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+/* Rodapé */
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+    background-color: #ca0c78;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+footer p {
+    color: white;
+}
+
+#menu-final a {
+    background-color: #fae673;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 8px 12px;
+    border-radius: 5px;
+    margin-left: 10px;
+    font-weight: bold;
+}
